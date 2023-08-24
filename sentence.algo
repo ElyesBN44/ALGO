@@ -1,0 +1,27 @@
+ALGORITHM phrase
+VAR
+    nmb_mots=entier
+    phrase=STRING
+    nmb_voyel=entier
+    
+BEGIN
+     nmb_mots=0
+     nmb_voyel=0
+    FOR i FROM 0 TO length(phrase) STEP 1  DO
+       if(phrase[i]=" ") then
+        nmb_mots=nmb_mots+1 
+    END_FOR
+        read(nmb_mots)
+    FOR i FROM 0 TO length(phrase) STEP 1 DO
+    if (str[i]="a" or str[i]="e" or str[i]="o" or str[i]="y" or str[i]="i" str[i]="u")  then
+     nmb_voyel=nmb_voyel+1
+    END_FOR
+        read(nmb_voyel)
+    ecrire("voici la longueur de la phrase", length(phrase))
+END:
+
+
+
+
+
+

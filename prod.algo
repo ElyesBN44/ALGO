@@ -1,0 +1,81 @@
+ALGORITHM produit
+VAR
+    n1=entier
+    n2=entier
+    p=entier
+BEGIN
+    ecrire"entrer le premier nombre"
+    lire"n1"
+    ecrire"entre le deuxiéme nombre"
+    lire"n2"
+    p=n1*n2
+    ecrire"le produit de n1 et n2 est :",p
+END
+ALGORITHM Echange
+VAR
+    A=entier
+    B=entier
+    X=entier
+BEGIN
+    ecrire"donner la valeur de A"
+    lire"A"
+    ecrire"donner la valeur de B"
+    lire"B"
+    X<=A 
+    A<=B
+    B<=X
+    ecrire"l'echange nous donne A=",A"B=",B
+END
+ALGORITHM Parité
+VAR
+    n=entier
+    
+BEGIN
+    ecrire("donner la valeur de n")
+    lire(n)
+    si n%2=0 alors
+    ecrire("n est pair")
+    sinon
+    ecrire ("n est impair")
+END
+
+ALGORITHM maxi
+VAR
+    n1=entier
+    n2=entier
+    n3=entier
+    maxi=entier
+BEGIN
+    ecrire"donner n1"
+    lire"n1"
+    ecrire"donner n2"
+    lire"n2"
+    ecrire"donner n3"
+    lire"n3"
+    n1=maxi
+    si n1>n2 alors
+    n3=maxi
+END
+
+ALGORITHM factorielle
+VAR
+    n=entier
+    i=entier
+    f=entier
+BEGIN
+    pour i=2 a n faire 
+    f=f*i 
+    i=i+1
+
+
+
+END
+
+
+
+
+
+
+
+
+    
